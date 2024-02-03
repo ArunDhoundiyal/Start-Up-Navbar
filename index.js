@@ -1,13 +1,7 @@
-//create-react-app
-//Installation Command:
-// It installs create-react-app globally in our environment.
+let navIconBar = document.getElementById("navIconBar");
+let contentContainer = document.getElementById("contentContainer");
+navIconBar.addEventListener("click", function () {
+  contentContainer.classList.toggle("hide-Container");
+});
 
-npm install -g create-react-app
-
-// Creating a React Application
-
-create-react-app myapp --use-npm
-
-// Starting a React Application
-
-npm start
+// https://navbarss.ccbp.tech/
